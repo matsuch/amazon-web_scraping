@@ -17,7 +17,7 @@ Este projeto tem como objetivo realizar a extração de alguns dados do site ama
   - Avaliação (nota)
   - Disponibilidade (Em estoque)
 
-![amazon_webscraping](https://github.com/matsuch/web_scrapping/assets/77889112/4e6311b5-bf33-43d7-bc5b-c46a98538ced)
+![amazon_webscraping](https://github.com/matsuch/amazon-web_scraping/assets/77889112/1e037e70-9351-46ab-b8ab-6b66185d8685)
 
 ## Requisitos <a name="requirements"></a>
 
