@@ -10,7 +10,7 @@
 
 ## Resumo do projeto <a name="brief"></a>
 
-Este projeto tem como objetivo realizar a extração de alguns dados do site amazon.com e enviá-los para o google sheets. Dados extraidos:
+Este projeto tem como objetivo realizar a extração de alguns dados do site amazon.com utilizando a biblioteca BeautifulSoup e enviá-los para o google sheets. Dados extraidos:
   - Link do produto
   - Nome do produto
   - Valor
