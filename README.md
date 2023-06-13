@@ -44,12 +44,16 @@ O código deve ser executado sem problemas usando Python versões 3 com as segui
 
 3. Abra o arquivo "links.csv" e informe todas as URLs que você deseja buscar, cada URL em uma linha (mantenha o cabecalho)
 
+4. Abra o arquivo "web_scraping.py" e na linha 83 informe o ID do seu Google Sheets.
+
+![Captura de tela de 2023-06-12 22-30-06](https://github.com/matsuch/amazon-web_scraping/assets/77889112/97046eb7-4d73-46e0-ab88-5fbbb8607c45)
+
 ## Descrição dos arquivos <a name="files"></a>
 
 - **Dados**
   - links.csv - *tabela com a lista de links que voce deseja buscar*
   - requirements.txt - *lista das bibliotecas necessarias para rodar o codigo*
-  - web_scrapping.py - *Código em python para fazer o web scraping*
+  - web_scraping.py - *Código em python para fazer o web scraping*
 
 ## Resultados <a name="results"></a>
 
