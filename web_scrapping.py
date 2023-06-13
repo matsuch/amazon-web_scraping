@@ -39,7 +39,7 @@ for link in links_list:
         headers=headers,
     )
     
-    # sending a request for a URL
+    # solicita request para a URL
     #URLs = requests.get(link, headers=HEADERS)
     soup = BeautifulSoup(URLs.content, "lxml")
       
@@ -47,14 +47,14 @@ for link in links_list:
     parsed_url = urlparse(link)
     link = parsed_url.netloc + parsed_url.path
     
-    # Outer Tag Object
+    # Extrai os dados desejados
     title = soup.find("span", attrs={"id":'productTitle'}).string.strip()
     price = re.sub(r'[^0-9,]', '', soup.find("span", class_="a-offscreen").string.strip())
     availability = soup.find("div", attrs={"id":'availability'})
     availability = availability.find("span").string.strip()
     review = soup.find("span", class_="a-icon-alt").string
     
-    # Add a new row to the DataFrame
+    # Para cada link, adiciona uma linha ao dataframe criado
     df = pd.concat([df, pd.DataFrame({'Link': [link],
                                       'Produto': [title],
                                       'Preco': [price],
@@ -67,6 +67,8 @@ for link in links_list:
 # converte a coluna 'data_hora' para o formato desejado
 df['Hora Pesquisa'] = df['Hora Pesquisa'].dt.strftime('%d/%m/%Y %H:%M:%S')
 
+#### Integracao com Google Sheets ####
+
 # escopo utilizado
 scope = ['https://spreadsheets.google.com/feeds']
 
@@ -78,7 +80,7 @@ credentials = ServiceAccountCredentials.from_json_keyfile_name(
 gc = gspread.authorize(credentials)
 
 # abre a planilha
-wks = gc.open_by_key('1eEKV8J0TAcdy3lbk7bQ2DVMjlk1r1V08vBihz4H-Y2c')
+wks = gc.open_by_key('ID-DO-SEU-SHEET') # insira aqui o ID do seu sheet
 
 # seleciona a primeira página da planilha
 worksheet = wks.get_worksheet(0)
