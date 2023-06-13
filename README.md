@@ -9,7 +9,14 @@
 
 ## Resumo do projeto<a name="brief"></a>
 
-Este projeto tem como objetivo realizar a extração de alguns dados do site amazon.com e enviá-los para o google sheets.
+Este projeto tem como objetivo realizar a extração de alguns dados do site amazon.com e enviá-los para o google sheets. Dados extraidos:
+  - Link do produto
+  - Nome do produto
+  - Valor
+  - Avaliação (nota)
+  - Disponibilidade (Em estoque)
+
+![amazon_webscraping](https://github.com/matsuch/web_scrapping/assets/77889112/4e6311b5-bf33-43d7-bc5b-c46a98538ced)
 
 ## Requisitos <a name="requirements"></a>
 
