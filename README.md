@@ -36,7 +36,7 @@ O código deve ser executado sem problemas usando Python versões 3 com as segui
 
     - Procure por Rede, no primeiro link que aparecer clique com o botão direito do mouse e vá em Copiar valor > Copiar como cURL
 
-![baixar_ccurl](https://github.com/matsuch/web_scrapping/assets/77889112/b907de81-de7c-414a-9ee7-2b419f616b70)
+    ![baixar_ccurl](https://github.com/matsuch/web_scrapping/assets/77889112/b907de81-de7c-414a-9ee7-2b419f616b70)
 
     - Acesse o site: https://curlconverter.com/ copie o cCurl e converta em JSON.
     - Acesse o site: https://jsoneditoronline.org/#left=local.pelema e salve como "url_parameters.json"
