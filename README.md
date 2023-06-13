@@ -55,10 +55,10 @@ O código deve ser executado sem problemas usando Python versões 3 com as segui
   - requirements.txt - *lista das bibliotecas necessarias para rodar o codigo*
   - web_scraping.py - *Código em python para fazer o web scraping*
 
+**ATENÇÃO**: Não se esqueça de criar os arquivos JSON descritos na etapa **Instruções de instalação**
+
 ## Resultados <a name="results"></a>
 
 Toda vez que você rodar o código, serão adicionadas novas linhas com a data/hora que foi realizado a consulta.
 
 ![resultado_webscraping](https://github.com/matsuch/amazon-web_scraping/assets/77889112/1997445e-0464-4c45-a2f9-b245226ff5a2)
-
-**ATENÇÃO**: Não se esqueça de criar os arquivos JSON descritos na etapa **Instruções de instalação**
