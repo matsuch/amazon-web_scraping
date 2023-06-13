@@ -1,4 +1,4 @@
-# Amazon Web Scrapping
+# Amazon Web Scraping
 
 ### Sumario
 
@@ -6,8 +6,9 @@
 2. [Requisitos](#requirements)
 3. [Instruções de instalação](#installation)
 4. [Descrição dos arquivos](#files)
+5. [Resultado](#results)
 
-## Resumo do projeto<a name="brief"></a>
+## Resumo do projeto <a name="brief"></a>
 
 Este projeto tem como objetivo realizar a extração de alguns dados do site amazon.com e enviá-los para o google sheets. Dados extraidos:
   - Link do produto
@@ -49,5 +50,9 @@ O código deve ser executado sem problemas usando Python versões 3 com as segui
   - links.csv - *tabela com a lista de links que voce deseja buscar*
   - requirements.txt - *lista das bibliotecas necessarias para rodar o codigo*
   - web_scrapping.py - *Código em python para fazer o web scraping*
+
+## Resultados <a name="results"></a>
+
+![resultado_webscraping](https://github.com/matsuch/web_scrapping/assets/77889112/a614a306-a7db-4c9a-b48d-5448f13af65b)
 
 **ATENÇÃO**: Não se esqueça de criar os arquivos JSON descritos na etapa **Instruções de instalação**
