@@ -53,6 +53,8 @@ O código deve ser executado sem problemas usando Python versões 3 com as segui
 
 ## Resultados <a name="results"></a>
 
+Toda vez que você rodar o código, serão adicionadas novas linhas com a data/hora que foi realizado a consulta.
+
 ![resultado_webscraping](https://github.com/matsuch/web_scrapping/assets/77889112/a614a306-a7db-4c9a-b48d-5448f13af65b)
 
 **ATENÇÃO**: Não se esqueça de criar os arquivos JSON descritos na etapa **Instruções de instalação**
