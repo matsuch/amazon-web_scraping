@@ -40,7 +40,7 @@ for link in links_list:
     )
     
     # solicita request para a URL
-    #URLs = requests.get(link, headers=HEADERS)
+    #URLs = requests.get(link, headers=HEADERS) #caso voce nao consiga fazer a etapa do Ccurl, basta utilizar este request e excluir as linhas 23 a 30 e 35 a 40
     soup = BeautifulSoup(URLs.content, "lxml")
       
     # extrair o link
